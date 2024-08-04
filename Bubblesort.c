@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-void swap(int *xp, int *yp) {
-int temp = *xp;
-*xp = *yp;
-*yp = temp;
-}
-
 void bubbleSort(int arr[], int n) {
 int i, j;
 for (i = 0; i < n-1; i++) {
